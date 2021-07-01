@@ -1,2 +1,2 @@
-# Steen-schaar-papier
-Steen, schaar en papier spel
+# Steen-papier-schaar
+Steen, papier en schaar spel
