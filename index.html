@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Steen, papier, schaar</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap" rel="stylesheet">   
+    <script src="script.js" defer></script>   
+</head>
+<body>
+    <h1>Steen, papier, schaar</h1>
+    <div id="container"> <h3>Speler 1, kies je optie!</h3>   
+        <div class="tooltip">
+			<div class="icon" style="font-size: 20px;">💡</div>
+			<div class="tooltip-content">
+				Uitleg: Met dit spel kun je snel een beslissing nemen; bijv. gaan we naar de film of blijven we thuis. Elke optie heeft evenveel kans om te winnen. Steen verslaat schaar, want die maakt de schaar bot. Papier wint van steen omdat je de steen ermee kan bedekken.                De schaar knipt papier aan flarden dus schaar wint van papier. 
+			</div>
+		</div>
+        <div id="boxen">        
+            <div id="steen" onclick="speel(1)"><h1>steen</h1><img src="https://upload.wikimedia.org/wikipedia/commons/8/8c/Hunebed_D6_bij_Tynaarlo.jpg" alt="steen"></div>
+            <div id="papier" onclick="speel(2)"><h1>papier</h1><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Papyrus.jpg/220px-Papyrus.jpg" alt="papier"></div>
+            <div id="schaar" onclick="speel(4)"><h1>schaar</h1><img src="https://upload.wikimedia.org/wikipedia/commons/8/88/Schere_Gr_99.jpg" alt="schaar"></div>
+        </div>
+        <h2 id="winnaar"></h2>       
+    </div>
+    <!--©-Tmra-2021-->
+</body>    
+</html>
